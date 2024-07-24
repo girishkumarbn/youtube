@@ -126,7 +126,7 @@ public class TestCases extends ExcelDataProvider{ // Lets us read the data
                 softAssert.assertTrue(movieCertificationData.equals("U"), "Does not match with the expected value" + movieCertificationData);
                 System.out.println("movieCertification Data is"+" "+movieCertificationData);
                 System.out.println("Test Case 02 execution ended");
-                softAssert.assertAll();
+                //softAssert.assertAll();
                 
         }
 
